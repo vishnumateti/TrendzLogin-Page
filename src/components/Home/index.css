@@ -1,0 +1,57 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cloth-details {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cloth-image-sm {
+  width: 60%;
+}
+.cloth-image-lg {
+  display: none;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.paragraph {
+  color: #475569;
+  font-family: 'Roboto';
+}
+.shop-now {
+  background-color: #0967d2;
+  outline: none;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 3px;
+  border: 0px none transparent;
+}
+@media (min-width: 992px) {
+  .home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cloth-image-lg {
+    display: block;
+    width: 40%;
+  }
+  .cloth-image-sm {
+    display: none;
+  }
+  .heading {
+    color: #1e293b;
+    font-family: 'Roboto';
+  }
+  .cloth-details {
+    width: 40%;
+  }
+}

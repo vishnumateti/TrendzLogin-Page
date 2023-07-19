@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.sm-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.logout-logo {
+  width: 40px;
+}
+.icons {
+  width: 20px;
+}
+.navbar-logo {
+  width: 100px;
+  margin-left: 20px;
+}
+.nav-options {
+  display: none;
+}
+.options {
+  color: #1e293b;
+  font-family: 'Roboto';
+  list-style-type: none;
+}
+.sm-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-products-cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6f6ff;
+  border: 0px none transparent;
+  width: 92%;
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .home-products-cart-container {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-options {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+  }
+  .logout-logo {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
